@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Alata', sans-serif;
+  color: #333;
+  /* I want to put emphasis on mobile look */
+  margin: 0 auto;
+  max-width: 800px;
+  font-family: 'Alata', sans-serif;
+  background-color: #f4f4f4;
+}
+
+a {
+  color: inherit;
+}
+
+.wrapper {
+  margin: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 400px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 400px;
+  margin-top: 50px 0;
+}
+
+h1 {
+  margin: 20px;
+}
+
+button {
+  background: none;
+  color: #333;
+  padding: 40px 30px 40px 30px;
+  border-radius: 9px;
+  padding: 15;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  border: 2px solid #e5e5e5;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: #ccc;
+  border: #ccc 2px solid;
+}
+
+.goback,
+button {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+i {
+  font-size: 30px;
+  padding: 5px;
+}
+
+/*  changing the scrollbar display */
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+  /*  changing the scrollbar display */
+  *::-webkit-scrollbar {
+    width: 0;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: none;
+  }
+}
