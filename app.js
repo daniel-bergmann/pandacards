@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cardsChosenId = [];
     resultDisplay.textContent = cardsWon.length;
     if (cardsWon.length === cardArray.length / 2) {
-      resultDisplay.textContent = 'Ver gert snillingur!!! 加油！🎉🎉🎉💪💪💪';
+      resultDisplay.textContent = 'Vel gert snillingur!!! 加油！🎉🎉🎉💪💪💪';
     }
   }
 
