@@ -29,6 +29,7 @@ a {
   flex-wrap: wrap;
   height: 100%;
   width: 400px;
+  cursor: pointer;
 }
 
 .center {
