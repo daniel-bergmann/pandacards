@@ -75,7 +75,7 @@ const App = () => {
           );
         })}
       </Cards>
-      <GithubCorner href="https://github.com/danielbergmann/pandacards" />
+      <GithubCorner href="https://github.com/daniel-bergmann/pandacards" />
       <p>
         made by <a href="https://danielbergmann.is">Daniel Bergmann</a>
       </p>
