@@ -1,5 +1,5 @@
-# pandacards
+# Pandacards - a simple card game
 
-yay
+Try it out [here](https://pandacards.vercel.app) 
 
 ![pandacards](/public/pandacards.png)
