@@ -1,4 +1,4 @@
-# Pandacards - a simple card game
+# pandacards - a simple card game
 
 Try it out [here](https://pandacards.vercel.app) 
 

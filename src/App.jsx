@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <Container>
-      <h1>Play a game of panda cards.</h1>
+      <h1>play a game of pandacards.</h1>
       <Cards>
         {pairOfCards.map((card, index) => {
           let isFlipped = false;
