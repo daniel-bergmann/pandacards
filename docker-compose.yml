@@ -1,0 +1,5 @@
+services:
+  vite-app:
+    build: .
+    ports:
+      - "8888:80"
